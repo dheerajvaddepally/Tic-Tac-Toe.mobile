@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="choose_your_side">Choose your side</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="your_turn">Your Turn</string>
+    <string name="computer_turn">.....</string>
+    <string name="reset">Reset</string>
+</resources>

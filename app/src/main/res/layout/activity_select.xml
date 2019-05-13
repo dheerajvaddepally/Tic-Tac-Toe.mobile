@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".SelectActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/background_color"
+            android:gravity="center">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/choose_your_side"
+                  android:gravity="center_horizontal"
+                  android:textSize="26sp"
+                  android:textStyle="bold"
+                  android:layout_marginBottom="40dp"
+                  android:textColor="@color/title_color"
+                  android:fontFamily="serif-monospace"
+                  android:padding="20dp"/>
+
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/x"
+                android:text="@string/x"
+                android:textSize="30sp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:fontFamily="serif-monospace"
+                android:background="@color/gray"/>
+
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/o"
+                android:text="@string/o"
+                android:textSize="30sp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:fontFamily="serif-monospace"
+                android:background="@color/gray"/>
+
+
+    </LinearLayout>
+
+</layout>
